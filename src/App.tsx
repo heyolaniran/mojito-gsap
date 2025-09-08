@@ -1,3 +1,4 @@
+import Art from "./components/art"
 import About from "./components/ui/about"
 import Cocktails from "./components/ui/cocktails"
 import Hero from "./components/ui/hero"
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Cocktails />
       <About />
+      <Art />
     </main>
   )
 }
