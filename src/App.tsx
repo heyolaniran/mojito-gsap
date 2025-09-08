@@ -1,11 +1,10 @@
+import NavBar from "./components/ui/nav-bar"
 
 function App() {
   return (
-    <div className="flex-center h-[100vh]">
-        <h1 className="text-6xl">
-            App
-        </h1>
-    </div>
+    <main>
+      <NavBar />
+    </main>
   )
 }
 
